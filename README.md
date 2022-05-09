@@ -15,6 +15,7 @@ The task for this project is to train a model that learns from the training set 
 * Note to do this, you will have to generate code that will understand where the example redaction is in the training set, generate features, and run the model.
 
 
+
 ## Steps to Run project3.py
 
 - **Step 1**  
@@ -78,4 +79,4 @@ This will calculate the precision, recall, accuracy, and f1 score using sklearn 
 In the tests, I tested the reading of data in the project3.py file
 
 ### test_readData
-this checked that the lengths of the inputs would match the length of the outputs for all lists, and that they were not of length 0.
+This checked that the lengths of the inputs would match the length of the outputs for all lists, and that they were not of length 0.
