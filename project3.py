@@ -65,7 +65,7 @@ def readData():
         else:
             count += 1
 
-    print(namesNot)
+    # print(namesNot)
     # print(count)
     return trainSent, trainCens, validSent, validCens, testSent, testCens
 
