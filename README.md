@@ -41,7 +41,7 @@ pipenv install sklearn, pytest
 
 - **Step 4**  
 Then run the below command to run the project
-- 
+
 ~~~
 pipenv run python project3.py 
 ~~~
