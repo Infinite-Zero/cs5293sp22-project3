@@ -74,3 +74,5 @@ From here, I used it with the naive bayes model for the prediction of the data. 
 This will calculate the precision, recall, accuracy, and f1 score using sklearn and print them in an orderly fashion.
 
 
+## Tests
+
