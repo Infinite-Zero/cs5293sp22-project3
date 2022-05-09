@@ -75,4 +75,7 @@ This will calculate the precision, recall, accuracy, and f1 score using sklearn 
 
 
 ## Tests
+In the tests, I tested the reading of data in the project3.py file
 
+### test_readData
+this checked that the lengths of the inputs would match the length of the outputs for all lists, and that they were not of length 0.
