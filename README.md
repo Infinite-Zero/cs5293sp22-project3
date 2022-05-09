@@ -22,7 +22,8 @@ The task for this project is to train a model that learns from the training set 
 
 * Note to do this, you will have to generate code that will understand where the example redaction is in the training set, generate features, and run the model.
 
-
+## Assumptions
+There will be no issues with removing improperly formatted entries from the tsv file.
 
 ## Steps to Run project3.py
 
