@@ -1,6 +1,14 @@
 # cs5293sp22-project3
 final project
 
+### Author: Kyle Teel
+
+## Project Video Walkthrough
+
+https://user-images.githubusercontent.com/38758663/167444731-7d46f68c-1bd4-4487-b191-ebf368fb3051.mp4
+
+
+
 The packages below are used in the project's virtual environment to successfully run the project.
 ~~~
 sklearn and pytest

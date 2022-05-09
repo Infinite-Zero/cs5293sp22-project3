@@ -70,7 +70,7 @@ def readData():
     return trainSent, trainCens, validSent, validCens, testSent, testCens
 
 
-def model(XtrainData, YtrainData, XtestData, YtestData):
+def model(XtrainData, YtrainData, XtestData, YtestData, type):
     # dictionary vectorizor
     dictVec = DictVectorizer(sparse=False)
     Xtrain = dictVec.fit_transform(XtrainData)
@@ -82,7 +82,7 @@ def model(XtrainData, YtrainData, XtestData, YtestData):
     results = train.predict(Xtest)
 
     # print calculations
-    printResults(YtestData, results, "training")
+    printResults(YtestData, results, type)
 
 
 
@@ -101,10 +101,10 @@ def main():
     trainSent, trainCens, validSent, validCens, testSent, testCens = readData()
 
     #training
-    model(trainSent, trainCens, testSent, testCens)
+    model(trainSent, trainCens, testSent, testCens, "training")
 
     #validation
-    model(validSent, validCens, testSent, testCens)
+    model(validSent, validCens, testSent, testCens, "validation")
 
 
 
